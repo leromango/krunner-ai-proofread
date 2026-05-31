@@ -43,7 +43,7 @@ sudo apt install wl-clipboard python3-pip
 ## Install
 
 ```bash
-git clone https://github.com/leromango/krunner-proofread
+git clone https://github.com/leromango/krunner-ai-proofread
 cd krunner-proofread
 chmod +x install.sh
 ./install.sh
