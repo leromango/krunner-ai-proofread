@@ -2,6 +2,8 @@
 
 A local AI proofreading plugin for KDE's KRunner, powered by [Ollama](https://ollama.com). No cloud, no API keys. Originally inspired by Apple Intelligence ease of use.
 
+The idea with this project is to make it as easy install and easy to use as possible. So, let me know if you have any ideas on improving the ease of use.
+
 Type `proof <your text>` in KRunner and get a corrected version instantly. The model runs entirely on your machine.
 
 ![KDE Plasma 6](https://img.shields.io/badge/KDE_Plasma-6-blue) ![Python 3](https://img.shields.io/badge/Python-3.10+-green) ![Ollama](https://img.shields.io/badge/Ollama-local-orange)
@@ -44,7 +46,7 @@ sudo apt install wl-clipboard python3-pip
 
 ```bash
 git clone https://github.com/leromango/krunner-ai-proofread
-cd krunner-proofread
+cd krunner-ai-proofread
 chmod +x install.sh
 ./install.sh
 ```
